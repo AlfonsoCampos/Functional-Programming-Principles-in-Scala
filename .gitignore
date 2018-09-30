@@ -1,0 +1,28 @@
+### Scala ###
+*.class
+*.log
+
+### SBT ###
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+.history/
+.cache/
+.lib/
+logs/
+project/*-shim.sbt
+project/project/
+project/target/
+target/
+.scala_dependencies
+.worksheet
+
+### Intellij ###
+*.iml
+*.iws
+*.ipr
+.idea/
+out/
